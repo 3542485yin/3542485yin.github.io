@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume of Summer</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #nav {
+            margin: 0 auto;
+            width: 300px;
+            font-size: 0;
+        }
+
+        a {
+            /*否则无法设置高度宽度等*/
+            display: inline-block;
+            /*盒子的样式*/
+            width: 80px;
+            height: 30px;
+            border-bottom: 2px solid #ccc;
+            /*超文本链接*/
+            font-size: 14px;
+            text-align: center;
+            line-height: 30px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            background-color: rgb(137, 205, 207);
+            border: 2px solid;
+            border-left-color: cadetblue;
+            border-top-color: cadetblue;
+            border-right-color: cadetblue;
+        }
+
+        .info>p {
+            margin: 0;
+            display: inline-block;
+            padding: 10px;
+            text-indent: 20px;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            border: 2px solid skyblue;
+            width: 800px;
+            height: 1500px;
+            background-color: #f3f8fc;
+            /* background-color: #e1f3f7; */
+            margin: auto;
+        }
+
+        .baseinfo {
+            height: 17%;
+        }
+
+        .info {
+            width: 600px;
+            float: left;
+        }
+
+        .photo {
+            width: 150px;
+            height: 204px;
+            float: left;
+            padding: 10px;
+            margin: 10px 14px auto 6px;
+        }
+
+        .education {
+            height: 14%;
+        }
+
+        .experience {
+            height: 33%;
+        }
+
+        .skills {
+            height: 15%;
+        }
+
+        .me {
+            height: 10%;
+        }
+
+        .line {
+            width: 760px;
+            height: 40px;
+            background-color: cadetblue;
+            /* background-color:rgb(71, 133, 137); */
+            color: white;
+            letter-spacing: 2px;
+            text-indent: 10px;
+            line-height: 40px;
+            font-size: 20px;
+            margin: 10px 18px 0 18px;
+        }
+
+        .linetitle {
+            color: cadetblue;
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+        .linetitle span {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+        }
+
+        .linetitle span:first-child {
+            text-align: left;
+        }
+
+        .linetitle span:last-child {
+            text-align: right;
+        }
+
+        .text {
+            margin-top: 20px;
+            text-indent: 30px;
+            line-height: 40px;
+            margin: 0 40px;
+
+        }
+
+        .text:before {
+            content: "·";
+            margin-right: 8px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="baseinfo">
+            <div class="info">
+                <p style="font-size: 30px;color: lightseagreen;font-weight: bold">尹夏萍</p><br>
+                <p>求职意向：业务运营（实习生）</p><br>
+                <p>联系电话：176-XXXX-4877</p>
+                <p>现居城市：上海</p><br>
+                <p>电子邮件：176XXXX4877@139.com</p>
+                <p>出生年月：2001.04</p><br>
+                <!-- <p><a href="form.html">表单链接</a> | <a href="index1_1.html">网站链接</a></p> -->
+                <div id="nav">
+                    <a href="website.html">个人介绍</a>
+                    <a href="form.html">表单链接</a>
+                    <a href="suibe.html">校园网站</a>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="self.jpg" style="width: 100%;height: 100%;">
+            </div>
+
+        </div>
+
+        <div class="education">
+            <div class="line">教育经历</div>
+            <div>
+                <p class="linetitle"><span>2019.10-2023.06</span> <span>上海对外经贸大学</span> <span>信息管理与信息系统专业/本科</span></p>
+                <p class="text">修读课程：
+
+                    管理学、会计学、运筹学、高等数学、软件工程、统计软件（SPSS）、概率论与数理统计、信息系统分析与设计、Java SE程序设计、数据结构、数据库原理与设计、
+                    数据仓库与数据挖掘、计算机科学导论、程序设计基础（英）、HTML与JavaScript程序设计。</p>
+
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="line">竞赛经历</div>
+            <div>
+                <p class="linetitle"><span>2021.11-2021.12</span> <span> 上海高校开放大数据分析挑战赛 </span> <span>队长</span></p>
+                <p class="text">在本次大赛中担任队长职务，主要负责团队内部成员的组织协调，同时参与完成本次比赛中的案例分析、报告撰写、答辩展示等任务。最终我小组结合相关知识原理构建出的CO2、
+                    GDP关系分析模型荣获市级三等奖。</p>
+                <!-- <p class="text">负责</p> -->
+            </div>
+
+            <div>
+                <p class="linetitle"><span>2021.03-2021.11</span> <span>上海大学生创业训练项目</span> <span>队长</span></p>
+                <p class="text"> 本项目中主要负责项目选题、可拓创新建模、组员任务分配、推荐算法确立、网络图形绘制与安排组织讨论协商等工作。我小组项目-“动态网络上的可拓推荐”构建了一套人机交互的可拓模型，
+                    有效解决传统推荐算法中的一些缺陷，成功结项。</p>
+            </div>
+            <div>
+                <p class="linetitle"><span>2020.06-2020.08</span> <span>“访万企，读中国”社会调查</span> <span>主干</span></p>
+                <p class="text"> 在本项目中负责参访企业的资料整合、公众号文案撰写与校对工作，秉持精益求精的态度积极建言献策，并协助上级与团队各组织部门对接推进项目。最终我小组多篇推送获得
+                    学校认可且同期被转至活动主办方官方公众号，荣获校级二等奖。</p>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="line">技能特长</div>
+
+            <div>
+                <p class="text">数据分析：能利用SPSS、Excel和Python进行数据分析、挖掘和可视化。</p>
+                <p class="text">语言能力：熟悉公众号文案撰写、校对以及排版工作，熟悉互联网产品。</p>
+                <p class="text">英语能力：英语四级，能用英语流利交流与读写并以英语作为工作语言。</p>
+                <p class="text">团队协作：能积极与团队成员沟通交流完成任务，工作主动，有责任心。</p>
+            </div>
+        </div>
+
+        <div class="me">
+            <div class="line">荣誉证书</div>
+
+            <div>
+                <p class="text">上海市高校开放大数据分析挑战赛-三等奖</p>
+                <p class="text">上海对外经贸大学优秀学生奖学金-三等奖</p>
+                <p class="text">美国大学生数学建模大赛-成功参与奖</p>
+                <p class="text">上海对外经贸大学“访万企，读中国”社会调查项目大赛-二等奖</p>
+                <p class="text">上海对外经贸大学第十四届计算机文化节计算机应用能力大赛-三等奖</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
